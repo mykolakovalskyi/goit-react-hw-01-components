@@ -1,5 +1,6 @@
 .transaction-history {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
 }
 
 .transaction-history thead {

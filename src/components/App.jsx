@@ -19,6 +19,7 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         flexWrap: 'wrap',
+        flexDirection: 'column',
         gap: 50,
         fontSize: 40,
         color: '#010101',
