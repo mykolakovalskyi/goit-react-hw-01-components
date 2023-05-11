@@ -1,3 +1,5 @@
+import './Profile.css';
+
 import PropTypes from 'prop-types';
 
 export const Profile = ({
