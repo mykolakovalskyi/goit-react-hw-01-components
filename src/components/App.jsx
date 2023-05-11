@@ -23,7 +23,9 @@ export const App = () => {
         gap: 50,
         fontSize: 40,
         color: '#010101',
-        padding: 20,
+        paddingBlock: 20,
+        paddingLeft: 10,
+        paddingRight: 10,
       }}
     >
       <Profile
