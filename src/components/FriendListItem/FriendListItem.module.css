@@ -1,11 +1,4 @@
-.friend-list {
-  list-style: none;
-  width: 100%;
-  max-width: 400px;
-  padding: 0;
-}
-
-.friend-list .item {
+.item {
   display: flex;
   max-width: 400px;
   align-items: center;
@@ -19,28 +12,26 @@
   border-radius: 10px;
 }
 
-.item .avatar {
+.avatar {
   width: 100px;
   height: 100px;
   background-color: silver;
   border-radius: 10px;
 }
 
-.status {
+.statusIsOnline {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-}
-
-.status--isOnline {
   background-color: green;
 }
 
-.status--isOfline {
+.statusisOfline {
+  composes: statusIsOnline;
   background-color: red;
 }
 
-.item .name {
+.name {
   font-size: 30px;
   font-weight: 500;
 }

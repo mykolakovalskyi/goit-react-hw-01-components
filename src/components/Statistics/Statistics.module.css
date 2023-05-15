@@ -16,7 +16,7 @@
   color: #807d7d;
 }
 
-.stat-list {
+.statList {
   width: 100%;
   max-width: 400px;
   display: flex;
@@ -28,7 +28,7 @@
   padding: 0;
 }
 
-.stat-list .item {
+.item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,15 +40,15 @@
   color: white;
 }
 
-.stat-list .item:first-of-type {
+.item:first-of-type {
   border-bottom-left-radius: 10px;
 }
 
-.stat-list .item:last-of-type {
+.item:last-of-type {
   border-bottom-right-radius: 10px;
 }
 
-.item .label {
+.label {
   font-size: 16px;
 }
 
